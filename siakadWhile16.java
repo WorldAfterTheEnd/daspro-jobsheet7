@@ -12,7 +12,7 @@ public class siakadWhile16 {
             double nilai = scanner.nextDouble();
 
             if (nilai < 0 || nilai > 100) {
-                System.out.println("Nilai tidak valid. Masukkan nilai antara 0 hingga 100.");
+                System.out.println("Nilai tidak valid. Ulangi dan Masukkan nilai antara 0 hingga 100.");
                 continue; // Mengulangi iterasi untuk mahasiswa yang sama
             }
             // nilai yang valid dikelompokkan ke dalam kategori huruf A (80 < nilai ≤ 100), B+ (73 < nilai ≤ 80), B (65 < nilai ≤ 73), C+ (60 < nilai ≤ 65), C (50 < nilai ≤ 60), D (39 < nilai ≤ 50), dan E (nilai ≤ 39).
